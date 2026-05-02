@@ -1,0 +1,10 @@
+repo: siakhooi/rpms
+branch: main
+git_commit_user: devutils
+git_commit_email: devutils@siakhooi.github.io
+git_commit_message: "devutils: Auto deploy"
+
+files:
+  - source: siakhooi-devutils-*.fc*.noarch.rpm
+    target: docs/
+    items: 1
