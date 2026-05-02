@@ -6,8 +6,6 @@ build-rpm:
 	scripts/build-rpms.sh
 set-version:
 	scripts/set-version.sh
-git-commit-and-push:
-	scripts/git-commit-and-push.sh
 create-release:
 	scripts/create-release.sh
 all-deb: clean set-version build-deb
@@ -23,3 +21,7 @@ test-install:
 delete-tags:
 	git tag --delete 1.0.0
 	git push --delete origin 1.0.0
+docker-build-rpm:
+	docker run --rm -v $(CURDIR):/workspaces docker.io/siakhooi/devcontainer:rpm44 scripts/build-rpms.sh
+docker-build-deb:
+	docker run --rm -v $(CURDIR):/workspaces docker.io/siakhooi/devcontainer:deb2604 scripts/build-deb.sh
