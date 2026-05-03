@@ -4,11 +4,11 @@ Release:        1%{?dist}
 Summary:        parent package for all siakhooi-devutils-* packages.
 
 License:        MIT
-URL:            https://github.com/siakhooi/bash-devutils
+URL:            https://github.com/siakhooi/devutils
 Source0:        https://github.com/siakhooi/%{name}/archive/refs/tags/${version}.tar.gz
 BuildArch:      noarch
 
-Requires:       siakhooi-devutils-echo-colors, siakhooi-devutils-date-formats, siakhooi-textutils, siakhooi-fileutils
+Requires:       siakhooi-echo-colors, siakhooi-date-formats, siakhooi-textutils, siakhooi-fileutils
 
 %description
 parent package for all siakhooi-devutils-* packages.

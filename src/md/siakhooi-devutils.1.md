@@ -14,7 +14,7 @@ Parent packages of several packages for development and testing:
 MIT
 
 # BUGS
-Report bugs at https://github.com/siakhooi/bash-devutils/issues.
+Report bugs at https://github.com/siakhooi/devutils/issues.
 
 # SEE ALSO
 siakhooi-devutils-echo-colors(1), siakhooi-devutils-date-formats(1), siakhooi-textutils(1)

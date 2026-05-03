@@ -1,7 +1,7 @@
 Package: siakhooi-devutils
 Version: 1.4.0
 Maintainer: Siak Hooi <siakhooi@gmail.com>
-Depends: siakhooi-devutils-echo-colors, siakhooi-devutils-date-formats, siakhooi-textutils, siakhooi-fileutils
+Depends: siakhooi-echo-colors, siakhooi-date-formats, siakhooi-textutils, siakhooi-fileutils
 Architecture: amd64
-Homepage: <https://github.com/siakhooi/bash-devutils>
+Homepage: <https://github.com/siakhooi/devutils>
 Description: parent package for all siakhooi-devutils-* packages.
